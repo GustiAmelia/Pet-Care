@@ -1,11 +1,8 @@
 import { LinearGradient } from 'expo-linear-gradient'
 import React from 'react'
-import { TextInput } from 'react-native'
-import { StyleSheet, Text, View, Image } from 'react-native'
+import { StyleSheet, Text, View, Image, TouchableOpacity, TextInput } from 'react-native'
 import colors from '../constants/colors'
-import Input from '../components/Input'
 import Icon from 'react-native-vector-icons/FontAwesome'
-import { TouchableOpacity } from 'react-native'
 import Button from '../components/Button'
 
 const inputFild = true;
