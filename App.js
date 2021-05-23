@@ -10,6 +10,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import RegistrationFbOrGoogle from './src/screens/RegistrationFbOrGoogle';
 import Register from './src/screens/Register';
 import SignIn from './src/screens/SignIn';
+import BottomTabScreens from './src/screens/BottomTabScreens';
 
 const Stack = createStackNavigator();
 
@@ -22,6 +23,7 @@ export default function App() {
         <Stack.Screen name='RegisterFbOrGoogle' component={RegistrationFbOrGoogle}/>
         <Stack.Screen name='Register' component={Register}/>
         <Stack.Screen name='SignIn' component={SignIn}/>
+        <Stack.Screen name='Home' component={BottomTabScreens}/>
       </Stack.Navigator>
       {/* <SplachScreen/> */}
     </NavigationContainer>
